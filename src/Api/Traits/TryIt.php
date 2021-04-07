@@ -28,7 +28,7 @@ trait TryIt
      * @param int $limit
      * @return Pagination
      */
-    abstract protected function getAggregatedActivity($pinId, array $additionalData = [], $limit);
+    abstract protected function getAggregatedActivity($pinId, array $additionalData = [], $limit = 50);
 
     /**
      * Makes a DidIt activity record.

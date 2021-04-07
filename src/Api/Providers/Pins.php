@@ -208,7 +208,7 @@ class Pins extends EntityProvider
      * @param int $limit
      * @return Pagination
      */
-    protected function getAggregatedActivity($pinId, $additionalData = [], $limit)
+    protected function getAggregatedActivity($pinId, $additionalData = [], $limit = 50)
     {
         $aggregatedPinId = $this->getAggregatedPinId($pinId);
 

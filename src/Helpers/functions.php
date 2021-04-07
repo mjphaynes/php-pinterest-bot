@@ -43,7 +43,7 @@ function trait_uses_recursive($trait)
  * @param mixed $default
  * @return array|bool|mixed
  */
-function get_array_data($key = '', $data, $default = null)
+function get_array_data($key = '', $data = [], $default = null)
 {
     if (empty($key)) {
         return $data;
